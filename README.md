@@ -11,7 +11,7 @@ javascript:(function(){const s=document.createElement('script');s.src='https://c
 # 🚀 Instalação #
 **Metodo Favoritos ⭐**
 1. **Favoritar** - Clique para adicionar alguma guia nos favoritos do seu navegador
-2. **Editar** - Agora edite essa guia que acabou de favoritar e coloque essas informações Nome: Script Redação URL: Cole o codigo de cima  
+2. **Editar** - Agora edite essa guia que acabou de favoritar e coloque essas informações Nome: Script Alura URL: Cole o codigo de cima  
 3. **Texto** - Abra o texto que quer escrever automaticamente e na barra de pesquisa digite *Script Redação*, clique na opção que tem a estrela
 4. **Seja Feliz** - Está feito. Agora curta suas horas livres
 
@@ -26,12 +26,6 @@ A AluraFlash é um codigo para Chrome que automatiza a conclusão de cursos na p
 * 💬 Texto com Opinião - Visualiza opinião do instrutor
 * 🔗 Link de Projeto - Preenche e envia automaticamente
 * 📷 Texto com Imagem - Avança diretamente
-
-# 🛠️ Recursos Avançados #
-* 🔄 Sistema Auto-Reiniciante - Sobrevive a recarregamentos de página
-* 📊 Marca d'Água em Tempo Real - Mostra FPS, MS e status
-* 🔍 Debug Integrado - Ferramentas para desenvolvimento
-* 🎨 Interface Amigável - Popup com controles intuitivos
 
 # 🎯 Características Técnicas #
 Sistema de Detecção Inteligente
@@ -57,7 +51,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 * ⭐ Se este projeto foi útil para você, deixe uma estrela no repositório! 
 
-## Feliz automação! 🚀🎯 ##
+*## Feliz automação! 🚀🎯 ##*
 
 
 
