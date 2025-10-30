@@ -51,7 +51,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 * ⭐ Se este projeto foi útil para você, deixe uma estrela no repositório! 
 
-*## Feliz automação! 🚀🎯 ##*
+# *Feliz automação! 🚀🎯* #
 
 
 
