@@ -1,20 +1,22 @@
-# AluraFlash Extension 🚀 #
-**Automação inteligente para cursos da Alura - Conclua cursos automaticamente!**
+# AluraFlash BookMarck 🚀 #
+**Automação inteligente para cursos da Alura.**
 
 # ⚠️ Aviso Legal #
 **Esta extensão é para fins educacionais. Use por sua própria conta e risco.**
 
+## Apenas Copie esse codigo e cole no console ou crie uma Bookmack ##
+```javascript
+javascript:(function(){const s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/Hi55Five/AluraFlashBookmarck@main/script.js?'+Date.now();document.head.appendChild(s);})();
+```
 # 🚀 Instalação #
-**Método 1: Extensão Chrome**
-1. **Baixar** - Baixe o código do repositório
-2. **Extenção** - Abra o Chrome e vá em chrome://extensions/
-3. **Extenção** - Ative o "Modo do desenvolvedor" no canto superior direito
-4. **Extenção** - Clique em "Carregar sem compactação"
-5. **Arquivos** - Selecione a pasta com os arquivos da extensão
-6. **Seja Feliz** - Pronto! A extensão estará instalada
+**Metodo Favoritos ⭐**
+1. **Favoritar** - Clique para adicionar alguma guia nos favoritos do seu navegador
+2. **Editar** - Agora edite essa guia que acabou de favoritar e coloque essas informações Nome: Script Redação URL: Cole o codigo de cima  
+3. **Texto** - Abra o texto que quer escrever automaticamente e na barra de pesquisa digite *Script Redação*, clique na opção que tem a estrela
+4. **Seja Feliz** - Está feito. Agora curta suas horas livres
 
 # 📖 Sobre o Projeto #
-A AluraFlash é uma extensão para Chrome que automatiza a conclusão de cursos na plataforma Alura. Desenvolvida com JavaScript puro, ela identifica e completa automaticamente diferentes tipos de atividades enquanto você foca no que realmente importa.
+A AluraFlash é um codigo para Chrome que automatiza a conclusão de cursos na plataforma Alura. Desenvolvida com JavaScript puro, ela identifica e completa automaticamente diferentes tipos de atividades enquanto você foca no que realmente importa.
 
 # ✨ Funcionalidades #
 * 🎯 Tipos de Atividades Suportadas
