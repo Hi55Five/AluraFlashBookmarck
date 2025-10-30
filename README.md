@@ -1,63 +1,73 @@
-# ⌨️ Automação Alura - Bookmarklet
+# AluraFlash Extension 🚀 #
+**Automação inteligente para cursos da Alura - Conclua cursos automaticamente!**
 
-**Um código feito para automatizar cursos na plataforma Alura com um clique!**
+# ⚠️ Aviso Legal #
+**Esta extensão é para fins educacionais. Use por sua própria conta e risco.**
 
-## 📋 Como Usar o Bookmarklet
-### **Método Bookmarklet (Favoritos) - MAIS FÁCIL!**
-1. **⭐ Crie um Favorito** - Arraste este link para sua barra de favoritos:
-   [🔗 **Automação Alura**](javascript:(function(){const script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Hi55Five/AluraFlashBookmarck@main/script.js?'+Date.now();document.head.appendChild(script);})())
-2. **🌐 Acesse a Alura** - Entre no curso desejado
-3. **🚀 Clique no Favorito** - Clique no bookmarklet "Automação Alura"
-4. **✨ Pronto!** - A automação iniciará automaticamente
+# 🚀 Instalação #
+**Método 1: Extensão Chrome**
+1. **Baixar** - Baixe o código do repositório
+2. **Extenção** - Abra o Chrome e vá em chrome://extensions/
+3. **Extenção** - Ative o "Modo do desenvolvedor" no canto superior direito
+4. **Extenção** - Clique em "Carregar sem compactação"
+5. **Arquivos** - Selecione a pasta com os arquivos da extensão
+6. **Seja Feliz** - Pronto! A extensão estará instalada
 
-### **Método Manual (se preferir)**
-1. **⭐ Favorito** - Crie um novo favorito no navegador
-2. **✏️ Edite** - Configure com:
-   - **Nome:** `Automação Alura`
-   - **URL:** Cole este código:
-   ```javascript
-   javascript:(function(){const script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Hi55Five/AluraFlashBookmarck@main/script.js?'+Date.now();document.head.appendChild(script);})()
-   ```
+# 📖 Sobre o Projeto #
+A AluraFlash é uma extensão para Chrome que automatiza a conclusão de cursos na plataforma Alura. Desenvolvida com JavaScript puro, ela identifica e completa automaticamente diferentes tipos de atividades enquanto você foca no que realmente importa.
 
-## 🎯 Funcionalidades
+# ✨ Funcionalidades #
+* 🎯 Tipos de Atividades Suportadas
+* 📹 Vídeos - Reproduz automaticamente e avança
+* 🔘 Múltipla Escolha - Seleciona todas as alternativas
+* 🧩 Ordenar Blocos - Decodifica e ordena corretamente
+* 💬 Texto com Opinião - Visualiza opinião do instrutor
+* 🔗 Link de Projeto - Preenche e envia automaticamente
+* 📷 Texto com Imagem - Avança diretamente
 
-### ✅ Atividades Automatizadas
-- **🎬 Vídeos** - Play automático e avanço
-- **🔘 Questões Múltipla Escolha** - Responde todas as alternativas
-- **🧩 Ordenar Blocos** - Decodifica e ordena corretamente
-- **🔗 Links de Projeto** - Preenche automaticamente
-- **💬 Texto com Opinião** - Mostra opinião do instrutor
-- **📷 Texto com Imagem** - Avança automaticamente
+# 🛠️ Recursos Avançados #
+* 🔄 Sistema Auto-Reiniciante - Sobrevive a recarregamentos de página
+* 📊 Marca d'Água em Tempo Real - Mostra FPS, MS e status
+* 🔍 Debug Integrado - Ferramentas para desenvolvimento
+* 🎨 Interface Amigável - Popup com controles intuitivos
 
-### 🔄 Recursos Inteligentes
-- **🔄 Auto-reiniciante** - Continua após recarregar página
-- **🎯 Detecção Automática** - Identifica tipo de atividade sozinho
-- **⏱️ Timing Perfeito** - Espera o tempo certo para cada ação
-- **📊 Monitor em Tempo Real** - Mostra status com FPS
+# 🎯 Características Técnicas #
+Sistema de Detecção Inteligente
+```javascript
+function detectActivityType() {
+    if (document.querySelector('.vjs-big-play-button, video')) return 'video';
+    if (document.querySelector('.alternativeList-item-input')) return 'multipla-escolha';
+    if (document.querySelector('.blocks')) return 'ordenar-blocos';
+    // ... mais detecções
+}
+```
+Descriptografia de Blocos
+```javascript
+// Decodifica Base64 duplo dos blocos
+const firstDecode = atob(correctOrderBase64);
+const finalDecode = atob(firstDecode);
+```
+# ⚠️ Disclaimer #
+Este projeto foi desenvolvido para fins educacionais e de aprendizado em automação web. O uso desta ferramenta deve seguir os Termos de Serviço da plataforma Alura. O autor não se responsabiliza pelo uso indevido da extensão.
 
-## 👀 Como Saber se Está Funcionando
+# 📄 Licença #
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-- **✅ Marca d'Água** - Aparece no canto inferior direito
-- **📝 Logs no Console** - Mostra todas as ações
-- **⚡ Comportamento** - As atividades avançam sozinhas
+* ⭐ Se este projeto foi útil para você, deixe uma estrela no repositório! 
 
-## ⚠️ Avisos Importantes
-
-- **🎓 Use para Estudo** - Não abuse do sistema
-- **⚖️ Seja Responsável** - Mantenha um uso moderado
-- **🔍 A Alura Pode Monitorar** - Use com cuidado
-- **⏰ Intervalos Normais** - Não acelere demais
+## Feliz automação! 🚀🎯 ##
 
 
 
-## 📄 Licença
 
-MIT License - Use para fins educacionais e de aprendizado.
 
-**⚠️ Aviso Legal:** Este script é para facilitar estudos. Respeite os termos de uso da plataforma.
 
----
 
-**🎓 Bons Estudos!**
 
-*"A tecnologia deve servir para potencializar o aprendizado, não substituí-lo."*
+
+
+
+
+
+
+
